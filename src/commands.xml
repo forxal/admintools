@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<Folder folder_name="Admin Tools">
+	<Folder folder_name="Active Directory">		
+		<ADItem item_name="AD Domains and Trusts" item_command="cmd /C mmc domain.msc"></ADItem>
+		<ADItem item_name="AD Management" item_command="cmd /C mmc admgmt.msc"></ADItem>
+		<ADItem item_name="AD Sites and Serrvices" item_command="cmd /C mmc dssite.msc"></ADItem>
+		<ADItem item_name="AD Users and Computers" item_command="cmd /C mmc dsa.msc"></ADItem>
+		<ADItem item_name="DHCP Management" item_command="cmd /C mmc dhcpmgmt.msc"></ADItem>
+		<ADItem item_name="DNS Management" item_command="cmd /C mmc dnsmgmt.msc"></ADItem>
+		<ADItem item_name="ADSI Edit" item_command="cmd /C mmc adsiedit.msc"></ADItem>
+				
+	</Folder>
+	<Folder folder_name="Local PC">
+		<ADItem item_name="Administration (запускается не всегда)" item_command="cmd /C control admintools"></ADItem>
+		<ADItem item_name="Cmd" item_command="cmd /C start cmd.exe"></ADItem>
+		<ADItem item_name="Computer Management" item_command="cmd /C mmc compmgmt.msc"></ADItem>
+		<ADItem item_name="Group Policy" item_command="cmd /C mmc gpedit.msc"></ADItem>
+		<ADItem item_name="Display Properties" item_command="cmd /C control desk.cpl"></ADItem>
+		<ADItem item_name="Msconfig" item_command="cmd /C start msconfig"></ADItem>		
+		<ADItem item_name="Printers (запускается не всегда)" item_command="cmd /C control printers"></ADItem>
+		<ADItem item_name="Regedit" item_command="cmd /C regedit"></ADItem>
+		<ADItem item_name="Services" item_command="cmd /C mmc services.msc"></ADItem>
+		<ADItem item_name="System Properties" item_command="cmd /C control sysdm.cpl"></ADItem>
+		<ADItem item_name="Task manager" item_command="cmd /C taskmgr"></ADItem>
+		<ADItem item_name="Uninstall Software" item_command="cmd /C control appwiz.cpl"></ADItem>
+		<ADItem item_name="Users and Groups" item_command="cmd /C mmc lusrmgr.msc"></ADItem>
+	</Folder>
+</Folder>

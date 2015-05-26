@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ADFolder folder_name="Active Directory">
+	<ADItem item_name="Users&amp;Computers" item_command="cmd /C mmc dsa.msc"></ADItem>
+	<ADItem item_name="DHCP" item_command="cmd /C mmc dhcpmgmt.msc"></ADItem></ADFolder>

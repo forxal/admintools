@@ -1,0 +1,1 @@
+runas /user:crimea\adm_mas "java -jar c:\admin\AdminTools.jar"
